@@ -1,11 +1,103 @@
-body
-{
+body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    color:black;
+    color: black;
     font-size: 12pt;
+    margin: 10;
+    padding: 10;
+    background-color: salmon;
 }
 
-ul{
-    line-height: 20px
+div {
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
+h3 {
+    background-color: green;
+    border: 0;
+    border-radius: 5px;
+}
+
+ul {
+    line-height: 20px;
+}
+
+
+
+td {
+    padding-left: 40px;
+}
+
+footer {
+    font-weight: bold;
+    color: aqua;
+}
+
+.foto{
+    padding-left: 100px;
+} 
+
+.textAlign{
+    text-align: center;
+    width: 400px;
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+
+.divAlign {
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 6px groove aqua;
+}
+
+.divCenter {
+    text-align: center;
+}
+
+.clickable {
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 10px;
+    color: blue;
+    border: 0;
+    border-radius: 5px;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    color: blueviolet
+}
+
+@media(min-width : 600px) and (max-width : 990px) {
+
+    .left-container,
+    .right-container {
+        width: 50%;
+        float: left;
+    }
+
+    .main-container {
+        overflow: auto;
+    }
+}
+
+@media(min-width: 991px) {
+
+    .left-container,
+    .right-container {
+        float: left;
+    }
+
+    .left-container {
+        width: 30%;
+    }
+
+    .right-container {
+        width: 70%;
+    }
+
+    .main-container {
+        overflow: auto;
+    }
+
+}
