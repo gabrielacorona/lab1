@@ -4,16 +4,16 @@ body {
     font-size: 12pt;
     margin: 10;
     padding: 10;
-    background-color: salmon;
+    background-color: #D6D5C9;
 }
 
 div {
-    background-color: whitesmoke;
+    background-color: #D6D5C9;
     border-radius: 5px;
 }
 
 h3 {
-    background-color: green;
+    background-color: #A10702;
     border: 0;
     border-radius: 5px;
 }
@@ -30,7 +30,7 @@ td {
 
 footer {
     font-weight: bold;
-    color: aqua;
+    color: #0A100D;
 }
 
 .foto{
@@ -47,7 +47,7 @@ footer {
 .divAlign {
     padding-left: 20px;
     border-radius: 5px;
-    border-left: 6px groove aqua;
+    border-left: 6px groove #FAA613;
 }
 
 .divCenter {
